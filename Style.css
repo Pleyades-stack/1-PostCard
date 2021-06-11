@@ -1,0 +1,51 @@
+.Postcard {
+    display: flexbox;
+    align-content: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5xp;
+    height: 350px;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    display: flex;
+    height: 100;
+    width: 400;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%
+ }
+input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.mid{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+.mid-l{
+align-items: center;
+justify-items: center;
+}
+.mid-r{
+
+}
+.botton{
+display: flex;
+justify-content: center
+}
+button{
+    background-color: rgb(182, 181, 181)
+}
